@@ -1,0 +1,31 @@
+.typing-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    white-space: pre-wrap; /* Ensures whitespace and line breaks are respected */
+    overflow: hidden;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .cursor {
+    display: inline-block;
+    /* background-color: black; */
+    margin-left: 2px;
+    animation: blink 0.7s steps(1) infinite;
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .fade-out {
+    animation: fadeOut 1s ease forwards;
+  }
+  
+  @keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+  

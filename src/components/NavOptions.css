@@ -1,0 +1,60 @@
+.nav-options {
+    position : relative;
+    outline : 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+
+    width : 90%;
+    left : 5%;
+    top : 30%;
+
+    color : black;
+    font-size: larger;
+
+    /* align-items: left; */
+
+}
+
+.nav-title {
+    outline : 1px solid green;
+    text-align: left;
+    width : 100%;
+
+}
+
+.about-me-link {
+    outline : 1px solid green;
+    text-align: left;
+    margin-left : 10%;
+    width : 60%;
+    animation : transform 0.2s ease-in;
+}
+
+.projects-link {
+    outline : 1px solid green;
+    text-align: left;
+    margin-left : 10%;
+    width : 60%;
+    animation : transform 0.2s ease-in;
+}
+
+.blog-link {
+    outline : 1px solid green;
+    text-align: left;
+    margin-left : 10%;
+    width : 60%;
+    animation : transform 0.2s ease-in;
+}
+
+.philosophy-link {
+    outline : 1px solid green;
+    text-align: left;
+    margin-left : 10%;
+    width : 60%;
+    animation : transform 0.2s ease-in;
+}
+
+.about-me-link:hover, .projects-link:hover, .blog-link:hover, .philosophy-link:hover {
+    transform : scale(1.1);
+}
