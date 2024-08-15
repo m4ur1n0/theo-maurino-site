@@ -1,6 +1,6 @@
 .nav-options {
     position : relative;
-    outline : 1px solid black;
+    /* outline : 1px solid black; */
 
     display: flex;
     flex-direction: column;
@@ -17,42 +17,47 @@
 }
 
 .nav-title {
-    outline : 1px solid green;
+    /* outline : 1px solid green; */
     text-align: left;
     width : 100%;
 
+    cursor :default;
 }
 
 .about-me-link {
-    outline : 1px solid green;
+    /* outline : 1px solid green; */
     text-align: left;
     margin-left : 10%;
     width : 60%;
-    animation : transform 0.2s ease-in;
+    transition : transform 0.1s ease-in;
+    cursor : pointer;
 }
 
 .projects-link {
-    outline : 1px solid green;
+    /* outline : 1px solid green; */
     text-align: left;
     margin-left : 10%;
     width : 60%;
-    animation : transform 0.2s ease-in;
+    transition : transform 0.1s ease-in;
+    cursor : pointer;
 }
 
 .blog-link {
-    outline : 1px solid green;
+    /* outline : 1px solid green; */
     text-align: left;
     margin-left : 10%;
     width : 60%;
-    animation : transform 0.2s ease-in;
+    transition : transform 0.1s ease-in;
+    cursor : pointer;
 }
 
 .philosophy-link {
-    outline : 1px solid green;
+    /* outline : 1px solid green; */
     text-align: left;
     margin-left : 10%;
     width : 60%;
-    animation : transform 0.2s ease-in;
+    transition : transform 0.1s ease-in;
+    cursor : pointer;
 }
 
 .about-me-link:hover, .projects-link:hover, .blog-link:hover, .philosophy-link:hover {

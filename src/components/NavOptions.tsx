@@ -1,7 +1,11 @@
 import './NavOptions.css'
 import { useTheme } from './ThemeProvider';
 
-const NavOptions = () => {
+interface Props {
+    selectedPage : string;
+}
+
+const NavOptions = (p : Props) => {
 /*
     import {theo-maurino} from
         './src/_projects'
@@ -10,6 +14,7 @@ const NavOptions = () => {
         '/src/_philosophy'
 */
     const {isLight} = useTheme();
+    const {selectedPage} = p; // add bolding selected page
 
     return (
         <div className={isLight ? 'nav-options nav-options-light' : 'nav-options nav-options-dark'}>
